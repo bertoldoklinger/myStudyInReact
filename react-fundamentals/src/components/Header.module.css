@@ -1,10 +1,14 @@
 .header {
-  background: var(--gray-800);
+  background: var(--blue-600);
   display: flex;
   justify-content: center;
   padding: 1.25rem 0;
 }
 
 .header img {
-  height: 2rem;
+  display: block;
+  max-width: 100%;
+  max-height: 95px;
+  width: auto;
+  height: auto;
 }

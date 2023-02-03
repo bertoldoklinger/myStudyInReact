@@ -1,12 +1,11 @@
 import styles from "./Header.module.css";
-import igniteLogo from "../assets/ignitesimbol.svg";
-
-console.log(igniteLogo);
+import logo from "../assets/logo.png";
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <img src={igniteLogo} alt="Logo da Ignite" />
+      <img src={logo} alt="Logo do Bertoldo" />
     </header>
   );
 }
+//TODO: CHANGE LOGO AND HEADER PROPORTION ON CSS

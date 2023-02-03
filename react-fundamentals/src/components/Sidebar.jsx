@@ -5,7 +5,7 @@ export function Sidebar() {
     <aside className={styles.sidebar}>
       <img
         className={styles.cover}
-        src="./assets/logoBertoldoTransparent.svg"
+        src="https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=70"
       />
 
       <div className={styles.profile}>
@@ -14,7 +14,7 @@ export function Sidebar() {
           src="http://github.com/bertoldoklinger.png"
         />
         <strong>Bertoldo Klinger</strong>
-        <span>Web Developer</span>
+        <span>Frontend Developer</span>
       </div>
       <footer>
         <a href="#">
