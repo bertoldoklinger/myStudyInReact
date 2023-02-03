@@ -1,14 +1,15 @@
 .header {
-  background: var(--blue-600);
+  background: var(--gray-800);
   display: flex;
   justify-content: center;
-  padding: 1.25rem 0;
+  padding: 0.75rem 0;
 }
 
 .header img {
-  display: block;
-  max-width: 100%;
-  max-height: 95px;
-  width: auto;
-  height: auto;
+  height: 4rem;
+}
+
+.header p {
+  padding: 1.25rem;
+  font-size: 20px;
 }
